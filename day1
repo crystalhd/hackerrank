@@ -42,3 +42,5 @@ Things Learned:
   then, 
   string s;
   std::getline(std::cin, s);
+Others' comment:
+"Using cin leaves an end of line character which is then read by your getline(); It is best not to mix different types of input."
